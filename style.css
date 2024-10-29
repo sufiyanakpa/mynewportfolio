@@ -1,0 +1,136 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.header{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    color: white;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+.navlinks{
+    padding: 40px;
+}
+.navlinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+
+}
+.navlinks>a:hover{
+    font-size: 45px;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.desc1{
+    color: yellow;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+
+}
+.desc>p{
+    font-size: 25px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-content: center;
+    display: flex;
+    text-align: justify;
+    margin-top: 45px;
+    text-align: center;
+}
+.desc{
+    top: 30px;
+    margin: 10px;
+    padding: 100px;
+    justify-content: space-between;
+}
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.aboutcontainer>h1{
+    text-align: center;
+
+}
+#para{
+    text-align: center;
+    text-align: justify;
+    justify-content: space-between;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 75px;
+    margin-right: 50px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+.img1{
+    align-items: center;
+}
+.img2{
+    padding-top: 100px;
+    padding-right: -100px;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+
+}
+.skill>h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.skills{
+    background-color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.skill{
+    background-color: white;
+    padding: 0px;
+    margin: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.sk1{
+    text-align: center;
+}
+.contactMe{
+    text-align: center;
+}
+.img4{
+    width: 75px;
+    height: 75px;
+    
+}
+.img5{
+    width: 75px;
+    height: 75px;
+}
